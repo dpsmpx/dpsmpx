@@ -60,7 +60,7 @@ Current status: development-stage technology, currently maintained in the VoxelR
 
 DPlang
 
-"DPlang" (https://github.com/dpsmpx/C-)
+"DPlang" (https://github.com/dpsmpx/DPlang)
 
 My own general-purpose systems programming language and toolchain for games, engines, tools and other native software.
 
