@@ -155,5 +155,5 @@ The projects remain independently useful: future integration is considered only 
 
 Contact
 
-"VK" (https://m.vk.com/dpsmpx)
+"VK" (https://m.vk.com/dpsmpx)  
 "Telegram DevLog" (https://t.me/gh_3D_Voxel_OpenWorld_RPG)
