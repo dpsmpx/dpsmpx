@@ -4,15 +4,15 @@ Independent developer building native game technology, systems-driven games, and
 
 My current work focuses on building a connected stack of technologies rather than isolated projects:
 
-DPlang → Engine → VoxelRPG → future native products
+DPlang → Engine → Galdhold → future native products
 
 I develop primarily in C++ and Python, with a strong focus on deterministic simulation, procedural generation, 3D graphics, systems architecture, AI-assisted development, and tooling.
 
 Current projects
 
-VoxelRPG
+Galdhold
 
-"3D_Voxel_OpenWorld_RPG" (https://github.com/dpsmpx/3D_Voxel_OpenWorld_RPG)
+"Galdhold" (https://github.com/dpsmpx/galdhold)
 
 A systems-driven 3D voxel Action-RPG / open-world game being developed from scratch for Android and Windows.
 
@@ -29,7 +29,7 @@ The project combines:
 - performance-oriented rendering and automatic graphics tuning
 - extensive automated verification and engineering tooling
 
-VoxelRPG is also the first production consumer and practical validation environment for my independently developed engine technology.
+Goldhold is also the first production consumer and practical validation environment for my independently developed engine technology.
 
 License: proprietary source-available.
 The source is available for inspection, but the project is not open source.
@@ -52,7 +52,7 @@ Current areas include:
 - testing and verification
 - native Android and desktop execution
 
-VoxelRPG is its first real production consumer, while separate engine-oriented validation is used to prevent game-specific assumptions from becoming engine architecture.
+Galdhold is its first real production consumer, while separate engine-oriented validation is used to prevent game-specific assumptions from becoming engine architecture.
 
 The long-term goal is to turn the engine into reusable technology for future native products.
 
@@ -143,7 +143,7 @@ Reusable native game and systems technology
 
 ↓
 
-VoxelRPG
+Galdhold
 Production game and technology validation
 
 ↓
