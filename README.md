@@ -1,4 +1,4 @@
-dpsmpx
+dpsmpx (aka DP, DearPixel)
 
 Independent developer building native game technology, systems-driven games, and developer tools.
 
