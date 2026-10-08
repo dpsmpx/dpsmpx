@@ -18,7 +18,7 @@ I focus on:
 
 ### Galdhold
 
-[![Galdhold](https://img.shields.io/badge/Galdhold-3D%20Voxel%20Action--RPG-6C63FF)]
+![Galdhold](https://img.shields.io/badge/Galdhold-3D%20Voxel%20Action--RPG-6C63FF)
 
 A native 3D voxel Action-RPG / open-world game built from scratch for Android and Windows.
 
@@ -28,7 +28,7 @@ Galdhold is currently my main production project and the practical validation en
 
 ### DPlang
 
-[![DPlang](https://img.shields.io/badge/DPlang-systems%20language-000000)]
+![DPlang](https://img.shields.io/badge/DPlang-systems%20language-000000)
 
 An independently developed systems programming language and toolchain for native software, games, engines, and developer tools.
 
