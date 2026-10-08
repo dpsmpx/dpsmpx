@@ -1,159 +1,82 @@
-dpsmpx (aka DP, DearPixel)
+# Boris Davydov (dpsmpx DP, dearpixel)
 
-Independent developer building native game technology, systems-driven games, and developer tools.
+**C++ / Python · Systems · Procedural Worlds · AI-Native Engineering**
 
-My current work focuses on building a connected stack of technologies rather than isolated projects:
+Independent developer building native game technology, systems-driven games, programming tools, and AI-assisted engineering workflows.
 
-DPlang → Engine → Galdhold → future native products
+I focus on:
 
-I develop primarily in C++ and Python, with a strong focus on deterministic simulation, procedural generation, 3D graphics, systems architecture, AI-assisted development, and tooling.
+- systems architecture
+- procedural generation
+- deterministic simulation
+- native C++ development
+- 3D graphics and Vulkan
+- developer tooling and verification
+- AI-native software engineering
 
-Current projects
+## Current Projects
 
-Galdhold
+### Galdhold
 
-"Galdhold" (https://github.com/dpsmpx/galdhold)
+[![Galdhold](https://img.shields.io/badge/Galdhold-3D%20Voxel%20Action--RPG-6C63FF)](https://github.com/dpsmpx/Galdhold)
 
-A systems-driven 3D voxel Action-RPG / open-world game being developed from scratch for Android and Windows.
+A native 3D voxel Action-RPG / open-world game built from scratch for Android and Windows.
 
-The project combines:
+The project combines procedural worlds, deterministic simulation, Vulkan rendering, living settlements, combat, NPCs, creatures, weather, and performance-oriented native technology.
 
-- Vulkan-based rendering
-- deterministic fixed-tick simulation
-- procedural world generation
-- living settlements and regional simulation
-- combat and RPG systems
-- NPCs, creatures and world events
-- dynamic weather and day/night systems
-- native Android and Windows platforms
-- performance-oriented rendering and automatic graphics tuning
-- extensive automated verification and engineering tooling
+Galdhold is currently my main production project and the practical validation environment for the engine technology behind it.
 
-Goldhold is also the first production consumer and practical validation environment for my independently developed engine technology.
+### DPlang
 
-License: proprietary source-available.
-The source is available for inspection, but the project is not open source.
+[![DPlang](https://img.shields.io/badge/DPlang-systems%20language-000000)](https://github.com/dpsmpx/DPlang)
 
-Engine
+An independently developed systems programming language and toolchain for native software, games, engines, and developer tools.
 
-Native game engine technology developed as a separate architectural project inside the VoxelRPG repository.
+The project focuses on correctness, deterministic behavior, explicit resource control, predictable execution, native interoperability, and strong verification.
 
-The engine is designed to remain independent from a particular game and to support future games, tools and other native applications.
+### Engineering Infrastructure
 
-Current areas include:
+I am also building tools and processes for scaling AI-assisted development without losing architectural control.
 
-- rendering and Vulkan infrastructure
-- platform abstraction
-- deterministic simulation foundations
-- ECS and entity systems
-- world/chunk infrastructure
-- audio
-- resource and asset systems
-- testing and verification
-- native Android and desktop execution
+This includes:
 
-Galdhold is its first real production consumer, while separate engine-oriented validation is used to prevent game-specific assumptions from becoming engine architecture.
+- multi-agent development workflows
+- automated verification
+- repository and architecture auditing
+- reproducible builds
+- technical-debt tracking
+- cross-project engineering consistency
 
-The long-term goal is to turn the engine into reusable technology for future native products.
+The goal is not simply to generate more code, but to make large amounts of AI-assisted development remain observable, testable, and maintainable.
 
-Current status: development-stage technology, currently maintained in the VoxelRPG repository.
-
-DPlang
-
-"DPlang" (https://github.com/dpsmpx/DPlang)
-
-My own general-purpose systems programming language and toolchain for games, engines, tools and other native software.
-
-The language is being designed around:
-
-- correctness and reliability
-- deterministic and reproducible behavior
-- explicit resource and memory control
-- predictable execution
-- long-term language evolution
-- strong verification and testing
-- efficient build and feedback cycles
-- AI-assisted development
-- practical native interoperability
-
-The planned toolchain initially targets portable C11 generation and existing native toolchains instead of introducing unnecessary compiler infrastructure.
-
-DPlang is an independent project. VoxelRPG does not depend on it, and any future use of DPlang in production will be evaluated separately based on measurable engineering benefit.
-
-License: proprietary, currently under an interim license while the final licensing model is being designed.
-
-Development approach
-
-I use AI-assisted development as an engineering workflow rather than as a replacement for engineering discipline.
+## How I Build
 
 My development process emphasizes:
 
-- architecture before implementation
-- explicit decisions and documented constraints
-- deterministic behavior
-- small, reviewable changes
-- automated tests and verification
-- continuous auditing
-- technical-debt tracking
-- reproducible builds and measurements
-- independent validation of important changes
-- careful control of AI-generated modifications
+**architecture → implementation → verification → measurement → audit**
 
-AI agents are used for implementation, analysis, auditing, testing and documentation, while the project architecture and final decisions remain under human control.
+AI agents are used for implementation, analysis, testing, auditing, and documentation.
 
-Areas of interest
+Architecture, constraints, and final engineering decisions remain under human control.
 
-Game development · native systems · C++ · Python · Vulkan · procedural generation · deterministic simulation · 3D graphics · ECS · algorithms · AI-assisted development · developer tools · computational systems
+## Earlier Work
 
-Selected previous work
+I have previously worked on C++ RPG systems, procedural simulations, graph and text-processing tools, procedural generation, cellular-automata-inspired experiments, and other native software projects.
 
-Andors-Love
+## Technologies
 
-"Andors-Love" (https://github.com/dpsmpx/Andors-Love)
+`C++` `C++20` `Python` `Vulkan` `SDL3` `Android NDK` `Linux` `Git` `GitHub`
 
-A C++ turn-based RPG project focused on reusable game logic, combat, quests, dialogue and equipment systems, with both terminal and SDL interfaces.
+## Direction
 
-TrueJointTileMaker
+My long-term goal is to build reusable technology for independent native software development:
 
-"TrueJointTileMaker" (https://github.com/dpsmpx/TrueJointTileMaker)
+**programming language → systems technology → games and tools → future products**
 
-A pixel-art raster editor project exploring structured image manipulation and a future native C++ architecture.
+Projects remain independently useful, and integration is pursued only when it provides a measurable engineering advantage.
 
-Other experiments
+## Links
 
-I have also worked on procedural simulations, evolutionary systems, graph and text-processing tools, procedural track generation, 3D experiments and cellular-automata-inspired projects.
-
-These smaller projects are useful as research and experimentation environments for ideas that later become part of larger systems.
-
-Technology
-
-"C++" "C++20" "Python" "Vulkan" "SDL3" "Android NDK" "Linux" "Git" "GitHub"
-
-Current direction
-
-My long-term goal is to build a reusable technology stack for independent native software development:
-
-DPlang
-Language, compiler and toolchain
-
-↓
-
-Engine
-Reusable native game and systems technology
-
-↓
-
-Galdhold
-Production game and technology validation
-
-↓
-
-Future products
-Games, tools and other native applications
-
-The projects remain independently useful: future integration is considered only when it provides a measurable practical advantage.
-
-Contact
-
-"VK" (https://m.vk.com/dpsmpx)  
-"Telegram DevLog" (https://t.me/gh_3D_Voxel_OpenWorld_RPG)
+[LinkedIn](https://www.linkedin.com/in/boris-davydov-278527414)
+ · [VK](https://vk.ru/dpsmpx)
+ · [Telegram DevLog](https://t.me/gh_3D_Voxel_OpenWorld_RPG)
